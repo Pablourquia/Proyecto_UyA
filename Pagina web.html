@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pagina web sobre Rainbow Six Siege</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -24,7 +25,6 @@
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="#">Home</a></li>
-          <!-- <li class="breadcrumb-item active" aria-current="page">Library</li> -->
         </ol>
       </nav>
   <div class="container">
@@ -39,16 +39,58 @@
             <h2>Defensores</h2>
             <p>Los defensores son los encargados de defender la zona de la bomba (en general). En esta sección podrás encontrar información sobre los defensores más usados en el juego.</p><br>
             <img src="https://wallpapercave.com/wp/wp9071889.png" alt="" role="presentation" aria-hidden="true" style="width: 100%; height: 50%;">
-            <a href="https://www.example.com" title="Visitar el sitio web de Defensores de Rainbow Six Siege" style="color: #0000EE; text-decoration: underline;">Enlace a el sitio web de los defensores</a>
+            <a href="defensores.html" title="Visitar el sitio web de Defensores de Rainbow Six Siege" style="color: #0000EE; text-decoration: underline;">Enlace a el sitio web de los defensores</a>
         </div>
         <div class="col-md-6">
             <h2>Atacantes</h2>
             <p>Los atacantes son los encargados de destruir la zona de la bomba (en general). En esta sección podrás encontrar información sobre los atacantes más usados en el juego.</p><br>
             <img src="https://media.altchar.com/prod/images/940_530/gm-6a09217c-84a0-4f9c-89dd-6017eba93f1b-sledge.jpeg" alt="" role="presentation" aria-hidden="true" style="width: 100%; height: 50%;">
-            <a href="https://www.example.com" title="Visitar el sitio web de Atacantes de Rainbow Six Siege" style="color: #0000EE; text-decoration: underline;">Enlace a el sitio web de los atacantes</a>
+            <a href="atacantes.html" title="Visitar el sitio web de Atacantes de Rainbow Six Siege" style="color: #0000EE; text-decoration: underline;">Enlace a el sitio web de los atacantes</a>
         </div>
     </div>
   </div>
+  <form id="my-form">
+  <div class="form-group">
+    <label for="email">Introduce un correo electrónico</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+  </div>
+  <div class="form-group">
+    <label for="respuesta1">¿Cuál es tu atacante favorito?</label>
+    <select class="form-control" id="respuesta1" required>
+      <option value="">Selecciona una opción</option>
+      <option value="sledge">Sledge</option>
+      <option value="ash">Ash</option>
+      <option value="thermite">Thermite</option>
+      <option value="twitch">Twitch</option>
+      <option value="montagne">Montagne</option>
+      <option value="glaz">Glaz</option>
+      <option value="thatcher">Thatcher</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="respuesta2">¿Cuál es tu defensor favorito?</label>
+    <select class="form-control" id="respuesta2" required>
+      <option value="">Selecciona una opción</option>
+      <option value="mira">Mira</option>
+      <option value="bandit">Bandit</option>
+      <option value="maestro">Maestro</option>
+      <option value="jagger">Jagger</option>
+      <option value="kapkan">Kapkan</option>
+      <option value="caveira">Caveira</option>
+      <option value="mute">Mute</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="respuesta3">Pregunta 3</label>
+    <select class="form-control" id="respuesta3" required>
+      <option value="">Selecciona una opción</option>
+      <option value="opcion1">Opción 1</option>
+      <option value="opcion2">Opción 2</option>
+      <option value="opcion3">Opción 3</option>
+    </select>
+  </div>
+  <button type="submit" id="boton-enviar" class="btn btn-primary">Enviar</button>
+</form>
   <footer>
     <div class="container">
       <div class="row">
@@ -68,7 +110,7 @@
       </div>
     </div>
   </footer>
-  
+  <script src="formulario.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
