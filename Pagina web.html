@@ -8,32 +8,32 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(105, 146, 86)">
     <div class="container-fluid">
-      <a class="navbar-brand" href="Pagina web.html"><img src="https://cdn2.downdetector.com/static/uploads/logo/rainboxsix.png" alt="logo Rainbow Six" width="120" ></a>
+      <a class="navbar-brand" href="Pagina web.html" tabindex="0"><img src="https://cdn2.downdetector.com/static/uploads/logo/rainboxsix.png" alt="logo Rainbow Six" width="120" ></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <!--<a class="nav-item nav-link active" href="Pagina web.html">Página Principal</a>-->
-          <a class="nav-item nav-link active" href="defensores.html">Defensores</a>
-          <a class="nav-item nav-link active" href="atacantes.html">Atacantes</a>
-          <a class="nav-item nav-link active" href="#">Ayuda</a>
+          <a class="nav-item nav-link active" href="defensores.html" tabindex="0">Defensores</a>
+          <a class="nav-item nav-link active" href="atacantes.html" tabindex="0">Atacantes</a>
+          <a class="nav-item nav-link active" href="ayuda.html" tabindex="0">Ayuda</a>
         </div>
       </div>
     </div>
-    </nav>
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">Home</a></li>
-        </ol>
-      </nav>
+  </nav>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="Pagina web.html" tabindex="0">Home</a></li>
+    </ol>
+  </nav>
   <div class="container">
     <div class="row">
       <div class="col">
         <h1 class="text-center">Página web sobre Rainbow Six Siege</h1>
-        <p class="text-center">¿Alguna vez has pensado quew pasaría si hay un atentado, en el mundo?¿que equipo actuaria para evitarlo o como lo haría? Ahora lo puedes saber<br>
+        <p class="text-center">¿Alguna vez has pensado que pasaría si hay un atentado, en el mundo?¿que equipo actuaria para evitarlo o como lo haría? Ahora lo puedes saber<br>
           Rainbow Six Siege, desarrollado por Ubisoft Montreal y editado por Ubisoft para PC, PlayStation 4 y Xbox One, es un título de acción first person shooter en el que podremos tomar parte en arriesgadas operaciones antiterroristas en modalidades multijugador cooperativas y competitivas. Combates intensos y altamente letales en entornos cerrados, tácticas, juego en equipo, acción explosiva... son lo que define la experiencia de juego.
         </p>
       </div>
@@ -43,7 +43,11 @@
           <h2>Defensores</h2>
           <p>Los defensores son los encargados de defender la zona de la bomba (en general). En esta sección podrás encontrar información sobre los defensores más usados en el juego.</p><br>
           <img src="https://wallpapercave.com/wp/wp9071889.png" alt="" role="presentation" aria-hidden="true" style="width: 100%; height: 50%;">
+<<<<<<< HEAD
           <a class="btn btn-secondary" href="defensores.html" role="button">Visitar el sitio web de Defensores de Rainbow Six Siege</a>
+=======
+          <a class="btn btn-secondary" href="defensores.html" role="button" tabindex="0" style="background-color:chocolate; color: black;">Visitar el sitio web de Defensores de Rainbow Six Siege</a>
+>>>>>>> 1c65c79a31e4218c2c43facb2004f798e32b3abd
         </div>
         <div class="col-md-6">
           <h2>Atacantes</h2>
@@ -57,6 +61,7 @@
     <div class="row">
       <div class="col">
         <h2 class="text-center">Los mapas</h2>
+<<<<<<< HEAD
       </div>
     </div>
   </div>
@@ -64,9 +69,26 @@
   <div class="form-group">
     <label for="email">Introduce un correo electrónico</label>
     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+=======
+        <p class="text-center">
+          Cualquier sitio puede ser un objetivo, desde una embajada o un consulado a una casa en una ciudad, en las favelas o en un edificio. En este juego adentrate en todos estos lugares y más donde podras moverte por pasillos estrechos, entrar por puertas y ventanas, o romper paredes y pillar a los enemigos por sorpesa.<br>
+          Una caracaterística emblemática de Rainbow Six son los mapas capaces de romperse por casi cualquier pared o suelo, haciendo no solo una experiencia mas realista e inmersiva, sino que también un enfoque mas estratégico para aquellos jugadores que quieren un autentico reto. 
+        </p>
+        <img src="https://pbs.twimg.com/media/FGgN2kJXwAAYpSK.jpg:large" alt="" role="presentation" aria-hidden="true" style="width: 100%; height: 50%;">
+      </div>
+    </div>
+>>>>>>> 1c65c79a31e4218c2c43facb2004f798e32b3abd
   </div>
-  <div class="form-group">
-    <label for="respuesta1">¿Cuál es tu atacante favorito?</label>
+  <h3>Formulario sobre el juego</h3>
+  <p>Para enviar el formulario se deben rellenar todos los campos y luego presionar el boton cuadrado en la parte inferior que pone "Enviar".</p>
+  <p>Todos los campos obligatorios se muestran en rojo y contienen un asterisco.</p><br>
+  <form id="my-form">
+  <div class="form-group" tabindex="0">
+    <label for="email" style="color: red;">Introduce un correo electrónico*</label>
+    <input type="email" autocomplete="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+  </div>
+  <div class="form-group" tabindex="0">
+    <label for="respuesta1" style="color: red;">¿Cuál es tu atacante favorito?*</label>
     <select class="form-control" id="respuesta1" required>
       <option value="">Selecciona una opción</option>
       <option value="sledge">Sledge</option>
@@ -78,8 +100,8 @@
       <option value="thatcher">Thatcher</option>
     </select>
   </div>
-  <div class="form-group">
-    <label for="respuesta2">¿Cuál es tu defensor favorito?</label>
+  <div class="form-group" tabindex="0">
+    <label for="respuesta2" style="color: red;">¿Cuál es tu defensor favorito?*</label>
     <select class="form-control" id="respuesta2" required>
       <option value="">Selecciona una opción</option>
       <option value="mira">Mira</option>
@@ -91,16 +113,19 @@
       <option value="mute">Mute</option>
     </select>
   </div>
-  <div class="form-group">
-    <label for="respuesta3">Pregunta 3</label>
+  <div class="form-group" tabindex="0">
+    <label for="respuesta3" style="color: red;">¿Cuál es tu mapa favorito?*</label>
     <select class="form-control" id="respuesta3" required>
       <option value="">Selecciona una opción</option>
-      <option value="opcion1">Opción 1</option>
-      <option value="opcion2">Opción 2</option>
-      <option value="opcion3">Opción 3</option>
+      <option value="casa">Casa</option>
+      <option value="villa">Villa</option>
+      <option value="club">Club</option>
+      <option value="consulado">Consulado</option>
+      <option value="base_hereford">Base de hereford</option>
     </select>
   </div>
-  <button type="submit" id="boton-enviar" class="btn btn-primary">Enviar</button>
+  <button type="submit" id="boton-enviar" class="btn btn-primary" tabindex="0">Enviar</button>
+  <p id="mensaje"></p>
 </form>
   <footer>
     <div class="container">
@@ -108,15 +133,13 @@
         <div class="col">
           <h3>Enlaces útiles:</h3>
           <ul>
-            <li><a href="#">Ayuda y soporte</a></li>
-            <li><a href="#">Política de privacidad</a></li>
-            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="ayuda.html" tabindex="0">Ayuda y soporte</a></li>
+            <li><a href="https://www.ubisoft.com/es-es/game/rainbow-six/siege" tabindex="0">Página oficial del juego</a></li>
           </ul>
         </div>
         <div class="col">
           <h3>Contacto:</h3>
-          <p>Correo electrónico: info@tudominio.com</p>
-          <p>Teléfono: 123-456-7890</p>
+          <p>Correos electrónicos: alu0101398327@ull.edu.es, alu0101413549@ull.edu.com</p>
         </div>
       </div>
     </div>
